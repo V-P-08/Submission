@@ -1,12 +1,8 @@
-a = float(input("Enter first number : "))
-b = float(input("Enter second number : "))
+def factorial(a):
+  if a<2:
+    return 1
+  else :
+    return (a*factorial(a-1))
 
-sum = a+b
-sub = a-b
-m = a*b
-d = a/b
-
-print("Addition : ", sum)
-print("Subtraction : ", sub)
-print("Multiplication : ", m)
-print("Division : ", d)
+s = factorial(5)
+print(s)
