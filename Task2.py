@@ -1,4 +1,9 @@
-a = input("Enter your first name : ")
-b = input("Enter your last name : ")
+a  = int(input("Enter a number : "))
+import math
+b = math.sqrt(a)
+c = math.log(a)
+d = math.sin(a)
 
-print("Hello ", a, " ", b, "! Welcome !")
+print(b)
+print(c)
+print(d)
